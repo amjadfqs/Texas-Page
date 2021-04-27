@@ -122,7 +122,7 @@ nav
 {
     text-align: center;
     padding: 10px;
-    margin-top: 7vh;
+    margin-top: 6.5vh;
     position: absolute;
     right: 0;
     top: 0;
@@ -203,7 +203,11 @@ nav
     text-align: center;
     text-shadow: 2px 2px 4px  white;
     border-radius:  27px/81px;
-}
+    /* border-radius: 50%; */
+    background: whitesmoke;
+    box-shadow:  -5px 5px 10px #a3a3a3,
+                  -5px -5px 10px #ffffff;
+    }
 
 .HighLight h2
 {
@@ -232,21 +236,29 @@ nav
 
 /* ----------------For Inside Store Images------------- */
 
-.StoreImage
+.StoreImage img
 {
     max-width: 100%;
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
 }
 
 .InsideStoreImage
 {
-    column-count: 3;
-    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.InsideImage
+{
+    flex: 21%;
+    padding:  0.5rem;
 }
 
 .InsideImage img
 {
     box-shadow: -5px 5px 9px  black;
+    width: 100%;
 }
 
 
@@ -279,8 +291,6 @@ nav
 .Parts:hover
 {
     transform: scale(0.9);
-    box-shadow: none;
-
 }
 
 .Parts h3
@@ -292,11 +302,8 @@ nav
     right:0%;
 	padding: 5px;
 	font-size: 30px;
-    /* width: 100%; */
-	/* background:#E01A4F; */
     text-shadow: 5px 5px 10px #E01A4F ;
 	color: #ffffff;
-	border-radius: 30px 30px 0 0;
 	z-index:1;
 }
 /* ----------------------------------For The Content------------------------------------------- */
@@ -317,12 +324,12 @@ nav
     font-family: 'Amiri', serif;
     font-size: 20px;
     direction: rtl;
-    /* background-color: rgba(207, 207, 207, 0.3); */
-    background-color: rgba(250, 207, 87, 0.5);
     border-radius: 50px;
     width: 30%;
-    /* box-shadow: 4px 5px 8px black; */
-    box-shadow: -5px 5px 9px  black;
+    border-radius: 50px;
+    background: linear-gradient(225deg, #e6e6e6, #ffffff);
+    box-shadow:  -7px 7px 12px #6b6b6b,
+                 7px -7px 12px #ffffff;
 }
 
 .content p 
@@ -369,6 +376,18 @@ footer{
 }
 
 
+.footer-content h4
+{
+    padding: 5px 10px;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 22px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    background: linear-gradient(225deg, #ffffff, #e6e6e6);
+    box-shadow: inset -5px -5px 10px #949494,
+                inset 5px 5px 10px #ffffff;
+}
+
 .footer-content h3
 {
     font-family: 'El Messiri', sans-serif;
@@ -382,10 +401,13 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    
 }
 
 
 .socials li{
+    
     margin: 0 10px;
 }
 
@@ -412,18 +434,21 @@ footer{
 /*-------------------------------------For The image template------------------------ */
 
 
-.ImageContainer .image{
-	width:100%;
-	border-radius:5px;
+.image{
+    flex: 21%;
+    padding:  0.5rem;
 }
 
 
 
 .ImageContainer{
 	/* position:relative; */
-	column-count:4;
-	padding:20px;
-    margin-top: 30px;
+	/* column-count:3; */
+	/* padding:20px; */
+    /* margin-top: 30px; */
+    margin: 1em auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .HeaderAboveImage
@@ -436,16 +461,13 @@ footer{
     margin: 50px;
     margin-top: 10%;
 }
+ 
 
-
-.image{
-	display:inline-block;
-	margin-bottom:10px;
-	overflow:hidden;
-}
-
-img{
-	width:100%;
+.img-fluid{
+	width: 100%;
+    height: 25em;
+    object-fit: cover;
+    object-position: 50% 50%;
 	transition:0.25s ease-in-out;
 }
 /* for the zoom */
@@ -516,7 +538,7 @@ img{
     .nav-links a
     {
         width: 100%;
-        font-size: 13px;
+        font-size: 17px;
     }
 
 
@@ -575,9 +597,14 @@ img{
         width: 20px;
     }
 
-    /* .ImageContainer{
-		column-count:1;
-	} */
+    .image{
+        flex: 50%;
+    }
+
+    .img-fluid{
+        width: 100%;
+        height: 15em;
+    }
 
     
 	
@@ -866,9 +893,14 @@ img{
 @media only screen and (min-width: 700px) and (max-width: 1199px){
    
 
-    .ImageContainer{
-		column-count:3;
-	}
+    .image{
+        flex: 33.3333%;
+    }
+
+    .img-fluid{
+        width: 100%;
+        height: 18em;
+    }
 }
 
 
