@@ -382,10 +382,10 @@ footer{
     font-family: 'El Messiri', sans-serif;
     font-size: 22px;
     margin-bottom: 10px;
-    border-radius: 30px;
+    /* border-radius: 30px;
     background: linear-gradient(225deg, #ffffff, #e6e6e6);
     box-shadow: inset -5px -5px 10px #949494,
-                inset 5px 5px 10px #ffffff;
+                inset 5px 5px 10px #ffffff; */
 }
 
 .footer-content h3
@@ -453,6 +453,7 @@ footer{
 
 .HeaderAboveImage
 {
+    width: 30%;
     display: flex;
     justify-content: center;
     color : black;
@@ -460,6 +461,11 @@ footer{
     font-size: 50px;
     margin: 50px;
     margin-top: 10%;
+    margin: 10% auto 5% auto;
+    border-radius: 23px;
+    background: linear-gradient(315deg, #ffffff, #e6e6e6);
+    box-shadow:  -7px 7px 14px #a3a3a3,
+                 7px -7px 14px #ffffff;
 }
  
 
@@ -579,6 +585,8 @@ footer{
         margin-top: 30px;
         font-size: 20px;
         border-radius:  0px ;
+        box-shadow: inset 0px -8px 10px #a3a3a3,
+                 inset 0px 10px 10px #ffffff;
     }
         .footer-content h3
     {
@@ -607,22 +615,13 @@ footer{
     }
 
     
-	
-	.ImageHeader{
-		font-size:15px;
-	}
-    
-    .ImageContainer{
-        column-count:2;
-    }
-    
     .ImageHeader{
         font-size:12px;
     }
+
     .HeaderAboveImage
     {
-        font-size: 45px;
-        margin: 40px;
+        font-size: 30px;
         margin-top: 30%;
     }
 
@@ -762,7 +761,6 @@ footer{
     .HeaderAboveImage
     {
         font-size: 45px;
-        margin: 40px;
         margin-top: 20%;
     }
 
