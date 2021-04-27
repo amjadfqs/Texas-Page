@@ -202,18 +202,18 @@ nav
     font-family: 'Amiri', serif;
     text-align: center;
     text-shadow: 2px 2px 4px  white;
-    border-radius:  27px/81px;
-    /* border-radius: 50%; */
-    background: whitesmoke;
-    box-shadow:  -5px 5px 10px #a3a3a3,
-                  -5px -5px 10px #ffffff;
+    
     }
 
 .HighLight h2
 {
+    border-radius:  27px/81px;
     transition: 0.5s;
     transform-origin: right;
     transform: scale(0);
+    background: whitesmoke;
+    box-shadow:  -5px 5px 10px #a3a3a3,
+                  -5px -5px 10px #ffffff;
 }
 
 .HighLight h2[data-scroll="in"]
