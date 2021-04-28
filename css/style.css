@@ -213,9 +213,9 @@ nav
     transform-origin: right;
     transform: scale(0);
     /* background: whitesmoke; */
-    background: linear-gradient(318.32deg, rgba(188, 196, 207, 0.1) 0%, rgba(196, 201, 209, 0.1) 55%, rgba(198, 202, 207, 0.25) 100%);
-    box-shadow:  -3px 3px 7px rgba(136, 165, 191, 0.48), 
-                 3px -3px 7px rgba(255, 255, 255, 0.5);
+    background: linear-gradient(318.32deg, rgba(215, 220, 226, 0.1) 0%, rgba(216, 222, 224, 0.1) 55%, rgba(218, 223, 222, 0.25) 100%);
+    box-shadow:  3px 3px 17px rgba(204, 203, 203, 0.5), 
+                 -3px -3px 17px rgba(204, 203, 203, 0.5);
 
 }
 
@@ -542,6 +542,7 @@ footer{
 
     nav
     {
+        box-shadow:  0px 3px 8px rgba(139, 134, 135, 0.5);
         flex-direction: column;
     }
 
