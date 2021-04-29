@@ -228,9 +228,9 @@ nav
     transition: 0.5s;
     transform-origin: right;
     transform: scale(0);
-    background: linear-gradient(318.32deg, rgba(215, 220, 226, 0.1) 0%, rgba(216, 222, 224, 0.1) 55%, rgba(218, 223, 222, 0.25) 100%);
+    /* background: linear-gradient(318.32deg, rgba(215, 220, 226, 0.1) 0%, rgba(216, 222, 224, 0.1) 55%, rgba(218, 223, 222, 0.25) 100%);
     box-shadow:  3px 3px 17px rgba(177, 175, 175, 0.5), 
-                 -3px -3px 17px rgba(204, 203, 203, 0.5);
+                 -3px -3px 17px rgba(204, 203, 203, 0.5); */
 
 }
 
