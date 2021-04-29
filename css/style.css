@@ -282,28 +282,27 @@ nav
 
 .StoreParts
 {
-    text-align: center;
-    column-count:4;
-    margin: 30px;
-    /* column-gap: 40px; */
-    /* display: flex; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row-reverse;
 }
 
 .Parts
 {
     position: relative;
-    width: 100%;
-    margin: 0 auto;
-    outline: none;
-    height: auto;
+    width: 20%;
+    padding:  0.5rem;
 }
+
+
 
 
 .Parts img
 {
-    box-shadow: -5px 5px 9px  black;
+    box-shadow: -3px 3px 5px  rgb(92, 92, 92);
     border-radius: 30px;
-    max-width: 100%;
+    width: 100%;
 }
 
 .Parts:hover
@@ -316,10 +315,10 @@ nav
     cursor: pointer;
     font-family: 'Lemonada', cursive;
     position:absolute;
-    top: 0%;
-    right:0%;
+    top: 1%;
+    right:4%;
 	padding: 5px;
-	font-size: 30px;
+	font-size: 25px;
     text-shadow: 5px 5px 10px #E01A4F ;
 	color: #ffffff;
 	z-index:1;
@@ -736,31 +735,26 @@ footer{
     
     .StoreParts
     {
-        /* column-count:2; */
-        margin: 5% 0;
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     
     .Parts
     {
-        margin: 5px;
-        position: relative;
-        width: 45%;
-        justify-content: space-between;
-        flex-direction: row;
+        width: 50%;
+        padding:  0.25rem;
     }
     
+    .Parts img
+    {
+       border-radius: 15px;
+
+    }
     
     .Parts h3
     {
-        font-size: 15px;
-        text-shadow: 5px 5px 10px #E01A4F ;
-        color: #ffffff;
-        border-radius: 30px 30px 0 0;
-        z-index:1;
+        top: 3%;
+        right:5%;
+        font-size: 10px;
     }
 }
 
@@ -903,27 +897,25 @@ footer{
 
     .StoreParts
     {
-        /* column-count:2; */
-        margin: 5% 0;
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
         justify-content: space-around;
     }
     
     .Parts
     {
-        margin: 5px;
-        position: relative;
-        width: 40%;
-        justify-content: space-around;
-        flex-direction: row;
+        width: 33.3333%;
+        padding:  0.30rem;
     }
     
-    
+    .Parts img
+    {
+       border-radius: 20px;
+
+    }
     .Parts h3
     {
-        font-size: 20px;
+        top: 3%;
+        right:5%;
+        font-size: 18px;
     }
 }
 
