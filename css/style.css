@@ -364,6 +364,12 @@ nav
 
 }
 
+.content a
+{
+    font-size: 10px;
+    text-decoration: none;
+}
+
 .ContentContainer h3
 {
     direction: rtl;
@@ -706,6 +712,12 @@ footer{
     {
         padding : 2vh;
         font-size: 12px;
+    }
+
+    .content a
+    {
+        font-size: 7px;
+        text-decoration: none;
     }
 
     /* ----------------For Slide Images------------- */
