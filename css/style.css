@@ -191,7 +191,7 @@ nav
 .burger
 {
     position: fixed;
-    top: 3.50% ;
+    top: 2.50% ;
     left: 2%;
     display: none;
     flex-direction: column;
