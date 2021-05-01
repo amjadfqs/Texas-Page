@@ -290,18 +290,17 @@ nav
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: row-reverse;
 }
 
 .Parts
 {
     position: relative;
-    width: 20%;
+    width: 25%;
     padding:  0.5rem;
+
 }
-
-
 
 
 .Parts img
