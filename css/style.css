@@ -522,7 +522,9 @@ footer{
 }
 
 .ImageHeader{
-    display: none;
+    font-family: 'Kufam', cursive;
+    font-size: 0px ;
+    /* display: none; */
 	position:absolute;
 	padding: 5px;
 	margin: 5px;
@@ -537,7 +539,7 @@ footer{
 
 /*name of the image*/
 .image:hover .ImageHeader{
-	opacity: 0.5;
+	opacity: 0.8;
 }
 
 
